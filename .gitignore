@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.idea/
+.env
+*.log
+*.pot
+*.pyc
+*.json
+*.db
+*.jpeg
+*.jpg
+*.txt
+request_api/*.json
+test.py

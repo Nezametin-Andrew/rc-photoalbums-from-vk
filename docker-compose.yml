@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+    api_for_vk:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        volumes:
+            - ./:/src
+        command: python main.py
+        restart: always
+
